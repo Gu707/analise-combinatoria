@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>site</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="site/css/style.css">
 </head>
 <body>
-    <?php include 'includes/header.php'; ?>
+    <?php include 'site/includes/header.php'; ?>
 
     <main>
         <h1>Descobrir senha</h1>
@@ -27,8 +27,8 @@
         <button id="calcular-btn">Descobrir</button>
     </main>
 
-    <?php include 'includes/footer.php'; ?>
-    <script src="js/script.js"></script>
+    <?php include 'site/includes/footer.php'; ?>
+    <script src="site/js/script.js"></script>
 
 </body>
 </html>
